@@ -18,10 +18,15 @@ namespace ManualLinkedList
             Node thirdNode = new Node("Tercer nodo");
             Node cuartoNode = new Node ("Cuarto nodo :D");
 
+            Node quintoNode = new Node("Quinto Nodo");
+
             myLinkedList.Add(firtsNode);
             myLinkedList.Add(secondNode);
             myLinkedList.Add(thirdNode);
+ 
             myLinkedList.Add(cuartoNode);
+
+            myLinkedList.Add(quintoNode);
             myLinkedList.Print();
 
             Console.WriteLine("Presione una tecla para finalizar");
