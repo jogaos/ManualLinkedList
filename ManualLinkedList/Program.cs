@@ -16,11 +16,12 @@ namespace ManualLinkedList
             Node firtsNode = new Node("Mi primer nodo");
             Node secondNode = new Node("Segundo nodo");
             Node thirdNode = new Node("Tercer nodo");
+            Node cuartoNode = new Node ("Cuarto nodo :D");
 
             myLinkedList.Add(firtsNode);
             myLinkedList.Add(secondNode);
             myLinkedList.Add(thirdNode);
-
+            myLinkedList.Add(cuartoNode);
             myLinkedList.Print();
 
             Console.WriteLine("Presione una tecla para finalizar");
