@@ -23,6 +23,7 @@ namespace ManualLinkedList
 
             myLinkedList.Print();
 
+            Console.WriteLine("Presione una tecla para finalizar");
             Console.ReadLine();
         }
     }
